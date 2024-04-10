@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "colorchecker2cielab"
+  site-url: "https://fligt.github.io/colorchecker2cielab"
+  description: "A tiny python package to extract cielab values from color managed TIF images"
+  repo-branch: master
+  repo-url: "https://github.com/fligt/colorchecker2cielab"
