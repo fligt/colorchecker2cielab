@@ -3,12 +3,12 @@
 # %% auto 0
 __all__ = ['read_target_data', 'RGBs_to_LABs', 'compare']
 
-# %% ../notebooks/20_computing-cielab-values-from-rgb.ipynb 9
+# %% ../notebooks/20_computing-cielab-values-from-rgb.ipynb 10
 import colour 
 import pandas as pd
 import numpy as np 
 
-# %% ../notebooks/20_computing-cielab-values-from-rgb.ipynb 10
+# %% ../notebooks/20_computing-cielab-values-from-rgb.ipynb 11
 def read_target_data(target_txt_file, verbose=False): 
     '''Read measured CIELAB values for specific Colorchecker target. '''
     
