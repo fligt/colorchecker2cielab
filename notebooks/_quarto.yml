@@ -8,13 +8,18 @@ format:
     toc: true
 
 website:
+  page-navigation: true
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
+    right: 
+      - icon: github
+        href: "https://github.com/fligt/colorchecker2cielab"
   sidebar:
     style: floating
+  page-footer: "Rijkserfgoedlaboratorium Amsterdam"
 
 metadata-files: [nbdev.yml, sidebar.yml]
