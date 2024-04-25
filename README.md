@@ -6,14 +6,17 @@ Professional photographers working for cultural heritage institutions
 take effort to produce color calibrated images. This is achieved by
 photographing a standard color target and accordingly adjust color
 values of subsequent images taken with the same camera + lights setup.
-Due to the complexity of color management it is quite possible to make a
-mistake. For this reason, it is important to have the possibility to
-check if the color values of the color managed TIF image of the color
-target are in agreement with the tabulated values for the color target.
-Until recently an online service provided by Pictura was available to
+This process is called color management. Due to the complexity of color
+management it is quite possible to make a mistake. For this reason, it
+is important to have the possibility to check if the color values of the
+color managed TIF image of the color target are in agreement with the
+tabulated values for the color target. Until recently an online service
+provided by [Picturae](https://picturae.com/en/) was available to
 photographers to upload their TIF images for such a check. Unfortunately
 this service is no longer available.
 
-This tiny python package `colorchecker2cielab` is developed to provide a
-quick method to automatically extract CIELAB color values from a TIF
-image of a XYZ Colorchecker target.
+This tiny python package `colorchecker2cielab` with a long name is
+developed to provide a quick way to automatically extract CIELAB color
+values from a TIF image of a [Digital Colorchecker
+SG](https://www.xrite.com/categories/calibration-profiling/colorchecker-digital-sg)
+target.
