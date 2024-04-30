@@ -20,3 +20,6 @@ developed to provide a quick way to automatically extract CIELAB color
 values from a TIF image of a [Digital Colorchecker
 SG](https://www.xrite.com/categories/calibration-profiling/colorchecker-digital-sg)
 target.
+
+This package is under development. Documentation can already be found
+[here](https://fligt.github.io/colorchecker2cielab/).
