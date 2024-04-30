@@ -6,6 +6,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    grid: 
+      body-width: 1100px
 
 website:
   page-navigation: true
