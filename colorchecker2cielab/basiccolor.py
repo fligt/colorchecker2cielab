@@ -3,13 +3,13 @@
 # %% auto 0
 __all__ = ['read_basiccolor_data']
 
-# %% ../notebooks/30_comparison-basiccolor.ipynb 13
+# %% ../notebooks/30_comparison-basiccolor.ipynb 17
 import pandas as pd 
 import numpy as np
 import skimage as sk
 import matplotlib.pyplot as plt
 
-# %% ../notebooks/30_comparison-basiccolor.ipynb 14
+# %% ../notebooks/30_comparison-basiccolor.ipynb 18
 def read_basiccolor_data(basiccolor_excel):
     '''Ad hoc code to parse from BasICColor excel report (based on html output) and
     return color values as dataframe. '''
