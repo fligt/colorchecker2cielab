@@ -3,12 +3,12 @@
 # %% auto 0
 __all__ = ['cielab_extractor']
 
-# %% ../notebooks/05_color-management-report.ipynb 6
+# %% ../notebooks/05_color-management-report.ipynb 7
 from . import extract_color_patches, RGBs_to_LABs 
 import pandas as pd 
 import re 
 
-# %% ../notebooks/05_color-management-report.ipynb 7
+# %% ../notebooks/05_color-management-report.ipynb 8
 def cielab_extractor(tif_file, write_excel=True):
     '''Extract RGB values from color patches and convert to CIELAB values table. '''  
 
