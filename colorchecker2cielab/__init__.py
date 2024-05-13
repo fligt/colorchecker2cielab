@@ -4,3 +4,5 @@ from .utils import *
 from .cielab import *
 from .basiccolor import *
 from .metamorfoze import *
+from .extractor import *
+
