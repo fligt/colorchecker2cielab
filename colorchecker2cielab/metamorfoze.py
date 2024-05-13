@@ -180,7 +180,6 @@ def delta_E_CIE2000_adapted(Lab_1, Lab_2, textiles=False, metamorfoze_SL_is_one=
 
     # ADDED BY FL 
     if metamorfoze_SL_is_one: 
-        print(f'SL=1')
         S_L = 1 
     
     S_C = 1 + 0.045 * C_bar_p
