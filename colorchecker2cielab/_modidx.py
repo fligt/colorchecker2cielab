@@ -29,5 +29,7 @@ d = { 'settings': { 'branch': 'master',
                                                                                            'colorchecker2cielab/utils.py'),
                                            'colorchecker2cielab.utils._plot': ( 'extracting-rgb-values.html#_plot',
                                                                                 'colorchecker2cielab/utils.py'),
+                                           'colorchecker2cielab.utils.download': ( 'extracting-rgb-values.html#download',
+                                                                                   'colorchecker2cielab/utils.py'),
                                            'colorchecker2cielab.utils.extract_color_patches': ( 'extracting-rgb-values.html#extract_color_patches',
                                                                                                 'colorchecker2cielab/utils.py')}}}
