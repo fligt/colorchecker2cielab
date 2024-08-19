@@ -22,5 +22,7 @@ values from a TIF image of a [Digital Colorchecker
 SG](https://www.xrite.com/categories/calibration-profiling/colorchecker-digital-sg)
 target.
 
-This package is under development. Documentation can already be found
-[here](https://fligt.github.io/colorchecker2cielab/).
+This package is under development. Documentation and code can already be
+found on [github](https://fligt.github.io/colorchecker2cielab/) and on
+the [Python Package
+index](https://pypi.org/project/colorchecker2cielab/).

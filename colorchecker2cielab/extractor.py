@@ -11,16 +11,22 @@ import sys
 import os 
 
 # %% ../notebooks/05_check-your-colorchecker.ipynb 9
-def cielab_extractor(tif_file, write_excel=True):
-    '''Extract RGB values from color patches and convert to CIELAB values table. '''  
+def cielab_extractor(tif_file, write_excel=True, verbose=True):
+    '''Extract RGB values from color patches in `tif_file` and convert to CIELAB values table. 
+    
+    Returns a pandas dataframe with 140 CIELAB values. 
+    '''  
 
     rectangles, RGBs = extract_color_patches(tif_file, make_plot=False) 
     LABs = RGBs_to_LABs(RGBs)
 
     if write_excel: 
-        xlsx_file = re.sub('\.tif$', '_CIELABs.xlsx', tif_file, flags=re.IGNORECASE)
+        xlsx_file = re.sub('\\.tif$', '_CIELABs.xlsx', tif_file, flags=re.IGNORECASE)
         print(f"Writing Colorchecker CIELAB values to excel file: \n'{xlsx_file}'\n")
         LABs.to_excel(xlsx_file)
+
+    if verbose: 
+        print(LABs.to_string())
     
     return LABs   
 

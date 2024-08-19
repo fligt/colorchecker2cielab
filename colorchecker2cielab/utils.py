@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['extract_color_patches', 'download']
 
-# %% ../notebooks/10_extracting-rgb-values.ipynb 12
+# %% ../notebooks/10_extracting-rgb-values.ipynb 14
 import skimage as sk
 import matplotlib.pyplot as plt
 import numpy as np 
@@ -14,7 +14,7 @@ import requests
 from tqdm import tqdm 
 import os
 
-# %% ../notebooks/10_extracting-rgb-values.ipynb 13
+# %% ../notebooks/10_extracting-rgb-values.ipynb 15
 def extract_color_patches(tif_file, nrows=10, ncols=14, make_plot=True): 
 
     # STEP 1: Read tif file and convert to float64  
